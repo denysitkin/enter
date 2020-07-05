@@ -1,0 +1,14 @@
+.main-slider {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.slide {
+  display: block;
+}
+
+.slide1 {
+  border-radius: 50%;
+  background: #ffd600;
+}

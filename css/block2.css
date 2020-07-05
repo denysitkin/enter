@@ -1,0 +1,211 @@
+.about {
+  background: #212121;
+  width: 210px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Play", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: white 0 5px 25px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.main-content__block2 {
+  display: flex;
+}
+
+.main-slide__block2 {
+  width: 21px;
+  text-align: center;
+  margin-top: 245px;
+}
+
+.slide__item {
+  margin-bottom: 30px;
+}
+
+.slide-up img {
+  transition: 0.3s linear;
+}
+.slide-up img:hover {
+  margin-top: 5px;
+}
+
+.slide-down img {
+  transition: 0.3s linear;
+}
+.slide-down img:hover {
+  margin-top: 5px;
+}
+
+.main-about__block2 {
+  margin: 50px 0 0 120px;
+  width: 860px;
+}
+
+.about__quote {
+  margin-bottom: 190px;
+  padding-left: 95px;
+}
+.about__quote .quote__bold {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.about__quote .quote__light {
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  float: right;
+}
+
+.about__info {
+  max-width: 760px;
+  margin-bottom: 60px;
+}
+.about__info .info__1 {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  margin-bottom: 50px;
+  line-height: 1.1;
+}
+.about__info .info__2 {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  line-height: 1.1;
+}
+
+.about__contacts {
+  margin-left: 140px;
+}
+.about__contacts .contacts__quest {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.about__contacts .contacts__btn {
+  margin-left: 90px;
+  margin-top: 40px;
+}
+.about__contacts .contacts__btn a {
+  background: #212121;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.about__contacts .contacts__btn a:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.main-number__page {
+  display: flex;
+}
+.main-number__page .block2__number-1 {
+  font-size: 60px;
+  font-family: "Russo One", sans-serif;
+  color: #212121;
+}
+.main-number__page .block2__number-row {
+  height: inherit;
+  display: flex;
+  margin: 0 10px;
+}
+.main-number__page .block2__number-pages {
+  display: flex;
+  align-items: flex-end;
+  font-size: 50px;
+  font-family: "Russo One", sans-serif;
+  color: #6D5C00;
+}
+
+.main-we__block2 {
+  position: relative;
+}
+
+.transparent-rec {
+  display: flex;
+  padding: 0 10px;
+  width: 570px;
+  height: 120px;
+  position: absolute;
+  background-color: #212121;
+  border-radius: 30px;
+  filter: blur(10);
+  opacity: 0.8;
+  z-index: 1;
+  bottom: 3%;
+  left: 0;
+}
+.transparent-rec .person__info {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  width: 500px;
+}
+.transparent-rec .person__info .person__name {
+  font-weight: 700;
+  font-size: 30px;
+}
+.transparent-rec .person__info .person__job {
+  line-height: 2;
+  font-style: italic;
+}
+.transparent-rec .person__info .person__dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.transparent-rec .person__info .person__dots .dots-item {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 7px;
+  background: #fff;
+}
+.transparent-rec .person__info .person__dots .dots-item:last-child {
+  margin: 0;
+}
+.transparent-rec .person__info .person__dots .active {
+  background: #ffd600;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.45);
+}
+.transparent-rec .person__back {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.transparent-rec .person__next {
+  display: flex;
+  align-items: center;
+}
+.transparent-rec .person__dots {
+  display: block;
+}
+
+.denys {
+  max-width: 602px;
+  height: auto;
+}
+
+.anna {
+  max-width: 559px;
+  height: auto;
+}
+
+.danil {
+  max-width: 678px;
+  height: auto;
+}

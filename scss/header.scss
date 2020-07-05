@@ -1,0 +1,178 @@
+$yel: #FFD600;
+$black: #212121;
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    padding-left: 120px;
+}
+
+.nav-item {
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: white;
+    margin-right: 60px;
+    font-size: 13px;
+    font-family: 'Russo One', sans-serif;
+    transition: .3s ease;
+
+    &:hover {
+        color: $yel;
+        padding-bottom: 2px;
+        border-bottom: 1px solid $yel;
+    }
+}
+
+.header-logo {
+    transition: 1s;
+    visibility: visible;
+    opacity: 1;
+    user-select: none;
+    
+
+    &.done {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.header-elem__logo {
+    display: flex;
+    position: relative;
+
+    & .header-logo__elem1 {
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        z-index: 2;
+    }
+
+    & .header-logo__elem2 {
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        left: 2px;
+    }
+    
+    & .header__fan1 {
+        position: absolute;
+        height: 14px;
+        width: 14px;
+        left: 10px;
+        top: 18px;
+        z-index: 1;
+        animation: fan2 1s infinite linear;
+    }
+
+    & .header__fan2 {
+        position: absolute;
+        height: 14px;
+        width: 14px;
+        left: 10px;
+        top: 34.5px;
+        z-index: 1;
+        animation: fan2 1s infinite linear;
+    }
+    
+}
+
+.header-elem__logo-name {
+    display: flex;
+    height: 50px;
+    align-items: center;
+
+    & .header-logo__name {
+        padding-left: 50px;     
+    }
+    
+}
+
+@keyframes fan2 {
+    from {
+       transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(720deg);
+    }
+}
+
+.header-search {
+    margin-left: 413px;
+    background: $black;
+    height: 40px;
+    border-radius: 40px;
+    padding: 12px;
+    transition: .8s ease;
+    user-select: none;
+
+    &:hover {
+        box-shadow:  0 5px 10px rgba(0,0,0,.35);
+    }
+
+    &:hover > .search-txt {
+        width: 200px;
+        padding: 0 6px;
+    }
+}
+
+.search-txt {
+    background: transparent;
+    font-size: 12px;
+    font-family: 'Russo One', sans-serif;
+    border: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: .4s;
+    width: 0;
+
+    &.search-txt::placeholder {
+        opacity: 0.7;
+    }
+}
+
+.search-link {
+    border: 1px solid $black;
+    background: transparent;
+    border-radius: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+
+.search-btn {
+    width: 14px;
+    height: 14px;
+}
+
+.user {
+    margin-left: 80px;
+    background: $black;
+    padding: 12px;
+    border-radius: 50%;
+    transition: .3s ease;
+    user-select: none;
+
+    &:hover {
+        box-shadow:  0 5px 10px rgba(0,0,0,.35);
+    }
+}
+
+.user-btn {
+    width: 15px;
+    height: 15px;
+}
+
+.header-btns {
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,57 @@
+@import 'nullstyle.scss';
+
+$yel: #ffd600;
+$b: #212121;
+
+.block1 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-background__yellow {
+    float: right;
+
+    & .yellow__background {
+        height: 100vh;
+    }
+}
+
+.content__block1 {
+    max-width: 1770px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.block2 {
+    min-width: 100%;
+    height: 100vh;
+    background-color: $yel;
+}
+
+.content__block2 {
+    max-width: 1770px;
+    margin: 0 auto;
+    
+}
+
+.block3 {
+    min-width: 100%;
+    height: 100vh;
+    background-color: $b;
+}
+
+.content__block3 {
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+    
+
+@import 'preload.scss';
+@import 'header.scss';
+@import 'block1.scss';
+@import 'block2.scss';
+@import 'block3.scss';

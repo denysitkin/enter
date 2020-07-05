@@ -1,0 +1,46 @@
+$yel: #ffd600;
+$b: #212121;
+
+.contacts {
+    width: 210px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $yel;
+
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    color: $b;
+    font-weight: bold;
+    text-shadow: $b 0 3px 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.main-slide__block3 {
+    width: 21px;
+    text-align: center;
+    margin-top: 245px;
+}
+
+.slide__item {
+    margin-bottom: 30px;
+}
+
+.slide-up img {
+    transition: .3s linear;
+
+    &:hover {
+        margin-top: 5px;
+    }
+}
+
+.slide-down img{
+    transition: .3s linear;
+
+    &:hover {
+        margin-top: 5px;
+    }
+}
